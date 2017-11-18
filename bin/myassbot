@@ -1,0 +1,41 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * This file is part of MyAss
+ */
+namespace MyAss;
+
+try
+{
+	$autoloadFilename = dirname( __DIR__ ) . '/vendor/autoload.php';
+	if( !file_exists( $autoloadFilename ) )
+	{
+		throw new \RuntimeException( 'fatal: Missing dependencies.', 1 );
+	}
+	require( $autoloadFilename );
+
+	/*
+	 * Configure app
+	 */
+	$appName = Application::NAME;
+ 	$appVersion = Application::VERSION;
+ 	$phpMinimum = Application::PHP_MIN;
+
+	$app = \Cranberry\Shell\ApplicationFactory::create( $appName, $appVersion, $phpMinimum, $argv, $_SERVER );
+}
+catch( \RuntimeException $e )
+{
+	echo $e->getMessage() . PHP_EOL;
+	exit( $e->getCode() );
+}
+
+/* Bootstrap */
+require( __DIR__ . '/bootstrap.php' );
+$___bootstrap( $app );
+
+/*
+ * Run and exit
+ */
+$app->run();
+$app->exit();

@@ -1,0 +1,155 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3dc6577fb0bfa4a6801d0f1e455136e9",
+    "packages": [
+        {
+            "name": "abraham/twitteroauth",
+            "version": "0.7.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abraham/twitteroauth.git",
+                "reference": "c6f9e692552dd037b2324ed0dfa28a4e60875acf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abraham/twitteroauth/zipball/c6f9e692552dd037b2324ed0dfa28a4e60875acf",
+                "reference": "c6f9e692552dd037b2324ed0dfa28a4e60875acf",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "~2.6",
+                "phpunit/phpunit": "~5.7",
+                "squizlabs/php_codesniffer": "~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Abraham\\TwitterOAuth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abraham Williams",
+                    "email": "abraham@abrah.am",
+                    "homepage": "https://abrah.am",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The most popular PHP library for use with the Twitter OAuth REST API.",
+            "homepage": "https://twitteroauth.com",
+            "keywords": [
+                "Twitter API",
+                "Twitter oAuth",
+                "api",
+                "oauth",
+                "rest",
+                "social",
+                "twitter"
+            ],
+            "time": "2017-06-30T22:02:01+00:00"
+        },
+        {
+            "name": "cranberry/filesystem",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cranberry/filesystem.git",
+                "reference": "e9113ec5fc99adea111549b9e8d396be8be62ffa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cranberry/filesystem/zipball/e9113ec5fc99adea111549b9e8d396be8be62ffa",
+                "reference": "e9113ec5fc99adea111549b9e8d396be8be62ffa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cranberry\\Filesystem\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ashur Cabrera",
+                    "email": "hello@cabreramade.co"
+                }
+            ],
+            "description": "A small filesystem library.",
+            "homepage": "https://github.com/cranberry/filesystem",
+            "support": {
+                "source": "https://github.com/cranberry/filesystem/tree/develop",
+                "issues": "https://github.com/cranberry/filesystem/issues"
+            },
+            "time": "2017-11-15T20:31:30+00:00"
+        },
+        {
+            "name": "cranberry/shell",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cranberry/shell.git",
+                "reference": "5d91ee6440ac9b141d04c66b53413a916f61d541"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cranberry/shell/zipball/5d91ee6440ac9b141d04c66b53413a916f61d541",
+                "reference": "5d91ee6440ac9b141d04c66b53413a916f61d541",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cranberry\\Shell\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ashur Cabrera",
+                    "email": "hello@cabreramade.co"
+                }
+            ],
+            "description": "A small CLI application library.",
+            "homepage": "https://github.com/cranberry/shell",
+            "support": {
+                "source": "https://github.com/cranberry/shell/tree/develop",
+                "issues": "https://github.com/cranberry/shell/issues"
+            },
+            "time": "2017-10-15T21:53:58+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "cranberry/filesystem": 20,
+        "cranberry/shell": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

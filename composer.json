@@ -1,0 +1,31 @@
+{
+    "name": "ashur/myassbot",
+    "description": "My Ass",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cranberry/filesystem"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cranberry/shell"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Ashur Cabrera",
+            "email": "hello@cabreramade.co"
+        }
+    ],
+    "require": {
+        "cranberry/filesystem": "dev-develop",
+        "cranberry/shell": "dev-develop",
+        "abraham/twitteroauth": "^0.7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyAss\\": "src/"
+        }
+    }
+}
