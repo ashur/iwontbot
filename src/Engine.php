@@ -76,7 +76,7 @@ class Engine
 	 *
 	 * @return	void
 	 */
-	public function addCorpus( Corpus\Corpus $corpus ) : void
+	public function addCorpus( Corpus\Corpus $corpus )
 	{
 		$this->corpusPool->addCorpus( $corpus );
 	}
