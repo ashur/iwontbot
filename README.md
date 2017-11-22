@@ -1,3 +1,3 @@
 # iwontbot
 
-A [Twitter bot](https://github.com/ashur/iwontbot) crankin’ out new country tunes.
+A [Twitter bot](https://twitter.com/iwontbot) crankin’ out new country tunes.
