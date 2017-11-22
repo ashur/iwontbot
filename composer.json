@@ -23,7 +23,7 @@
         }
     ],
     "require": {
-        "ashur/corpus-php": "dev-develop",
+        "ashur/corpus-php": "^0.1.0",
         "cranberry/filesystem": "dev-develop",
         "cranberry/shell": "dev-develop",
         "abraham/twitteroauth": "^0.7.4"

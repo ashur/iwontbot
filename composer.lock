@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "633ec69d72310e9a794995439a373642",
+    "content-hash": "670ee342c1decd2ae7f7d6cf9d24ba3a",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -62,7 +62,7 @@
         },
         {
             "name": "ashur/corpus-php",
-            "version": "dev-develop",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ashur/corpus-php.git",
@@ -133,7 +133,7 @@
                 "source": "https://github.com/cranberry/filesystem/tree/develop",
                 "issues": "https://github.com/cranberry/filesystem/issues"
             },
-            "time": "2017-11-15T20:31:30+00:00"
+            "time": "2017-11-15 20:31:30"
         },
         {
             "name": "cranberry/shell",
@@ -173,14 +173,13 @@
                 "source": "https://github.com/cranberry/shell/tree/develop",
                 "issues": "https://github.com/cranberry/shell/issues"
             },
-            "time": "2017-10-15T21:53:58+00:00"
+            "time": "2017-10-15 21:53:58"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ashur/corpus-php": 20,
         "cranberry/filesystem": 20,
         "cranberry/shell": 20
     },
