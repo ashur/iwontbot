@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3dc6577fb0bfa4a6801d0f1e455136e9",
+    "content-hash": "633ec69d72310e9a794995439a373642",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -59,6 +59,41 @@
                 "twitter"
             ],
             "time": "2017-06-30T22:02:01+00:00"
+        },
+        {
+            "name": "ashur/corpus-php",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ashur/corpus-php.git",
+                "reference": "0b851b734c14128473bdc7206d2d4fa91ff0ef5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ashur/corpus-php/zipball/0b851b734c14128473bdc7206d2d4fa91ff0ef5c",
+                "reference": "0b851b734c14128473bdc7206d2d4fa91ff0ef5c",
+                "shasum": ""
+            },
+            "require": {
+                "cranberry/filesystem": "dev-develop"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Corpus\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Ashur Cabrera",
+                    "email": "hello@cabreramade.co"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/ashur/corpus-php/tree/develop",
+                "issues": "https://github.com/ashur/corpus-php/issues"
+            },
+            "time": "2017-11-22T01:26:10+00:00"
         },
         {
             "name": "cranberry/filesystem",
@@ -145,6 +180,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "ashur/corpus-php": 20,
         "cranberry/filesystem": 20,
         "cranberry/shell": 20
     },

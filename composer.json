@@ -5,6 +5,10 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/ashur/corpus-php"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/cranberry/filesystem"
         },
         {
@@ -19,6 +23,7 @@
         }
     ],
     "require": {
+        "ashur/corpus-php": "dev-develop",
         "cranberry/filesystem": "dev-develop",
         "cranberry/shell": "dev-develop",
         "abraham/twitteroauth": "^0.7.4"
